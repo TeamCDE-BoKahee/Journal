@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+.container{
+    border: 0px hidden;
+    background-color: #f5bdbd;
+    width: 1200px;
+    padding: 5px;
+    margin: 20px auto;
+}
+header, nav, main, aside, footer{
+    border-radius: 10px;
+    border: 0px hidden;
+    margin: 5px;
+    padding: 10px;
+}
+main{
+    margin: 8px auto;
+    width:800px;
+}
+nav, main, aside{
+    font-family: 'Anton', sans-serif;
+    float: left;
+    height: 500px;
+}
+nav{
+    float: left;
+    background-color: rgb(199, 179, 240);
+    width:130px;
+}
+nav ul{
+    font-size: 2em;
+    list-style-type: none;
+    padding-left: 0px;
+}
+nav ul li{
+    font-size: 2em;
+    display: block;
+    background-color: rgb(199, 179, 240);
+}
+
+nav ul li a{
+    font-size: 30%;
+    background-color: rgb(199, 179, 240);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 12px;
+    display: block
+}
+nav a:link{
+    color: #000000;
+}
+nav a:visited{
+    color: #4f5353;
+}
+nav a:hover{
+    background-color: rgb(159, 232, 233);
+}
+nav a:active{
+    background-color: rgb(160, 233, 235);
+}
+aside#ad{
+    float: right;
+    background-color: #9370DB;
+    width: 150px;
+}
+aside#ad p#site{
+    position: relative;
+    top: 320px;
+    text-align: end;
+}
+aside#ad p#site img{
+    margin-top:5px; 
+    width: 20%;
+    height: 20%;
+}
+section#declare{
+    text-indent: 1em;
+    line-height: 2em;
+    padding: 10px 20px;
+}
+section#declare span{
+    font-variant: small-caps;
+    float: right;
+}
+section#declare::first-letter{
+    font-size:3em;
+    font-weight:bold;
+    color: rgb(166, 113, 223);
+    text-shadow: -3px -3px 3px rgb(3, 0, 8);
+}
+header img{
+    height: 7%;
+    width: 7%;
+    margin-left: 10px;
+}
+header span{
+    font-size: 80%;
+    position: absolute;
+    top:90px;
+}
+footer, header{
+    background-color: white; 
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    width: 1170px;
+    background-position: center;
+}
+
+footer{
+    clear: both;
+    height: 40px;
+}
+footer p{
+    font-family: 'Anton', sans-serif;
+    margin-top: 15px;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+}
+
+#errors{
+    position: relative;
+    top: 10px;
+    font-size: 0.8em;
+    color: #444444;
+}
+
+
