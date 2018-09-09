@@ -42,12 +42,13 @@ nav ul{
 nav ul li{
     font-size: 2em;
     display: block;
-    background-color: rgb(199, 179, 240);
+    background-color: rgb(230, 182, 215);
+    text-align: center;
 }
 
 nav ul li a{
     font-size: 30%;
-    background-color: rgb(199, 179, 240);
+    background-color: rgb(233, 196, 228);
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -56,15 +57,21 @@ nav ul li a{
 }
 nav a:link{
     color: #000000;
+    border: outset;
+    border-color: rgb(250, 235, 215);
 }
 nav a:visited{
-    color: #4f5353;
+    color: #535353;
+    border-color: rgb(250, 235, 215);
 }
 nav a:hover{
-    background-color: rgb(159, 232, 233);
+    background-color: rgb(247, 201, 226);
+    border-color: rgb(250, 235, 215);
 }
 nav a:active{
-    background-color: rgb(160, 233, 235);
+    background-color: rgb(247, 203, 232);
+    border: inset;
+    border-color: rgb(250, 235, 215);
 }
 aside#ad{
     float: right;
