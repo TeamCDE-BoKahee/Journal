@@ -40,34 +40,75 @@ nav ul{
     padding-left: 0px;
 }
 nav ul li{
-    font-size: 2em;
+    font-size: 1em;
     display: block;
-    background-color: rgb(230, 182, 215);
+    background-color: transparent;
     text-align: center;
 }
 
 nav ul li a{
-    font-size: 30%;
-    background-color: rgb(233, 196, 228);
+    transform: translate(-50%, -50%);
+    width:400px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-    padding: 10px 12px;
-    display: block
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 200%;
+    border-radius: 10%;
+    z-index: 1;
 }
+
+a:hover{
+    animation: animate 8s linear infinite;
+}
+
+
+@keyframes animate{
+    0%
+    {
+        background-position: 0%;    
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+a:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 40%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+a:hover:before
+{
+    filter: blur(20px);
+    
+}
+
 nav a:link{
-    color: #000000;
+    color: white;
     border: outset;
     border-color: rgb(250, 235, 215);
 }
 nav a:visited{
-    color: #535353;
+    color: white;
     border-color: rgb(250, 235, 215);
 }
-nav a:hover{
-    background-color: rgb(247, 201, 226);
-    border-color: rgb(250, 235, 215);
-}
+
 nav a:active{
     background-color: rgb(247, 203, 232);
     border: inset;
