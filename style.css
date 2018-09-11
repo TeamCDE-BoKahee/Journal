@@ -7,9 +7,12 @@
 }
 
 body{
-    background: url(https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-size: cover;
+    background: url(https://metrouk2.files.wordpress.com/2016/12/pink-pineapple.gif) 
+    no-repeat center fixed transparent;
+    background-attachment:fixed;
+    background-size:100% 100%;
 }
+
 
 .container{
     text-align: center;
@@ -21,13 +24,13 @@ body{
 }
 
 .container span{
-    color: white;
+    color: gray;
     text-transform: uppercase;
     display: block;
 }
 
 .text1{
-    color: white;
+    color: black;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 8px;

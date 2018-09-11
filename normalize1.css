@@ -9,7 +9,7 @@ body{
 }
 .container{
     border: 0px hidden;
-    background-color: #f5bdbd;
+    background-color: transparent;
     width: 1200px;
     padding: 5px;
     margin: 20px auto;
