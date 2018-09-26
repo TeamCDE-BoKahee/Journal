@@ -201,15 +201,15 @@ body span.animated{
   }
   .image img{
     margin: 0px;
-    width: 60%;
+    width: 30%;
   }
   .image-overlay {
     position: absolute;
     z-index: 5;
     top: 0;
     overflow: hidden;
-    width: 60%;
-    height: 60%;
+    width: 30%;
+    height: 99%;
     background-color: rgba(231, 76, 60,.6);
     text-align: center;
     opacity:0;
@@ -237,3 +237,4 @@ body span.animated{
     display: inline-block;
     margin-top: -20px;
   }
+   
