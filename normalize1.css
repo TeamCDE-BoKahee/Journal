@@ -9,6 +9,7 @@
 header {
     font-family: 'Pattaya', sans-serif;
     font-size: 48px;
+    background-color: transparent;
   }
 
 body{
@@ -170,19 +171,17 @@ header span{
     position: absolute;
     top:90px;
 }
-footer, header{
-    background-color: white; 
+footer {
+    background-color:transparent; 
     color: black;
     font-size: 30px;
     font-weight: bold;
     width: 1170px;
     background-position: center;
-}
-
-footer{
     clear: both;
     height: 40px;
 }
+
 footer p{
     font-family: 'Anton', sans-serif;
     size:8px;
