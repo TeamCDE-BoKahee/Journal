@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
-@import url('https://fonts.googleapis.com/css?family=Pattaya');
+
 
 *{
     padding: 0;
@@ -7,10 +7,6 @@
     font-family: 'Anton', sans-serif;
 }
 
-header {
-    font-family: 'Pattaya', sans-serif;
-    font-size: 48px;
-  }
 
 body{
     background: url(https://metrouk2.files.wordpress.com/2016/12/pink-pineapple.gif) 

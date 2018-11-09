@@ -9,21 +9,22 @@
 header {
     font-family: 'Pattaya', sans-serif;
     font-size: 48px;
+    color: black;
     background-color: transparent;
   }
 
 body{
-    background-image: url(img/background.jpg);
+    background-image: url(img/close-up-data-flatlay-1018133.jpg);
     background-size: cover;
 }
 .container{
     border: 0px hidden;
     background-color: transparent;
-    width: 1200px;
+    width: 1100px;
     padding: 5px;
     margin: 20px auto;
 }
-header, nav, main, aside, footer{
+header, nav, main, footer{
     border-radius: 10px;
     border: 0px hidden;
     margin: 5px;
@@ -33,7 +34,7 @@ main{
     margin: 8px auto;
     width:800px;
 }
-nav, main, aside{
+main{
     font-family: 'Anton', sans-serif;
     float: left;
     height: 500px;
@@ -42,39 +43,21 @@ nav{
     float: left;
     background-color: transparent;
     width:130px;
+    height: 50px;
+    text-align: center;
 }
-nav ul{
-    font-size: 2em;    
-    list-style-type: none;
-    padding-left: 0px;
-}
-nav ul li{
-    font-size: 1em;
+
+a {
     display: block;
-    background-color: transparent;
-    text-align: center;
-}
-
-nav ul li a{
-    transform: translate(-50%, -50%);
-    width:400px;
-    height: 10px;
-    text-align: center;
-    line-height: 10px;
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
+    padding: 20px 0;
     text-decoration: none;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 200%;
-    border-radius: 10%;
-    z-index: 1;
+    color: blue;
+    border-bottom: 1px solid black;
 }
 
-a:hover{
-    animation: animate 8s linear infinite;
+li {
+    list-style-type: none;
 }
-
 
 @keyframes animate{
     0%
@@ -108,35 +91,6 @@ a:hover:before
     
 }
 
-nav a:link{
-    color: white;
-    border: outset;
-    border-color: rgb(250, 235, 215);
-}
-nav a:visited{
-    color: white;
-    border-color: rgb(250, 235, 215);
-}
-
-nav a:active{
-    background-color: rgb(247, 203, 232);
-    border: inset;
-    border-color: rgb(250, 235, 215);
-}
-aside#ad{
-    float: right;
-    width: 150px;
-}
-aside#ad p#site{
-    position: relative;
-    top: 320px;
-    text-align: end;
-}
-aside#ad p#site img{
-    margin-top:5px; 
-    width: 20%;
-    height: 20%;
-}
 section#declare{
     font-size:120%;
     text-indent: 1em;
