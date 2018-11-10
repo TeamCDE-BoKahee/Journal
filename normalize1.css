@@ -46,13 +46,14 @@ nav{
     width:50px;
     height: 50px;
     text-align: center;
+    font-size: 23px;
 }
 
 a {
     display: block;
     padding: 20px 0;
     text-decoration: none;
-    color: blue;
+    color: rgb(54, 53, 53);
     border-bottom: 1px solid black;
     font-family: 'Permanent Marker', cursive;
 }
@@ -62,7 +63,7 @@ nav li:first-child a {border-top: 1px solid black;}
 
 .menu {
   width: 180px;
-  height: 260px;
+  height: 300px;
   background: rgb(236, 247, 248);
   position: relative;
 }
