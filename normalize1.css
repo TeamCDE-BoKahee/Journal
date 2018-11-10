@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Pattaya');
-
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 *{
     margin: 0px;
     padding: 0px;
@@ -12,7 +12,13 @@ header {
     color: black;
     background-color: transparent;
   }
-
+main{
+    margin: 8px;
+    width:800px;
+    font-family: 'Anton', sans-serif;
+    height: 500px;
+    float: left;
+}
 body{
     background-image: url(img/close-up-data-flatlay-1018133.jpg);
     background-size: cover;
@@ -22,7 +28,7 @@ body{
     background-color: transparent;
     width: 1100px;
     padding: 5px;
-    margin: 20px auto;
+    margin: 20px 20px 20px 20px;
 }
 header, nav, main, footer{
     border-radius: 10px;
@@ -30,19 +36,14 @@ header, nav, main, footer{
     margin: 5px;
     padding: 10px;
 }
-main{
-    margin: 8px auto;
-    width:800px;
+nav, main {
+  float: left;
 }
-main{
-    font-family: 'Anton', sans-serif;
-    float: left;
-    height: 500px;
-}
+
 nav{
     float: left;
     background-color: transparent;
-    width:130px;
+    width:50px;
     height: 50px;
     text-align: center;
 }
@@ -53,6 +54,17 @@ a {
     text-decoration: none;
     color: blue;
     border-bottom: 1px solid black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+nav a:hover { background: rgb(176, 220, 238);}
+nav li:first-child a {border-top: 1px solid black;}
+
+.menu {
+  width: 180px;
+  height: 260px;
+  background: rgb(236, 247, 248);
+  position: relative;
 }
 
 li {
@@ -70,27 +82,6 @@ li {
     }
 }
 
-a:before{
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-    border-radius: 40%;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-a:hover:before
-{
-    filter: blur(20px);
-    
-}
-
 section#declare{
     font-size:120%;
     text-indent: 1em;
@@ -105,7 +96,7 @@ section#declare span{
 section#declare::first-letter{
     font-size:3em;
     font-weight:bold;
-    color: rgb(166, 113, 223);
+    color: rgb(243, 158, 215);
     text-shadow: -3px -3px 3px rgb(3, 0, 8);
 }
 section#codecatcher{
