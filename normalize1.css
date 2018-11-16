@@ -14,7 +14,7 @@ header {
   }
 main{
     margin: 8px;
-    width:800px;
+    width: 800px;
     font-family: 'Anton', sans-serif;
     height: 500px;
     float: left;
@@ -34,7 +34,7 @@ header, nav, main, footer{
     border-radius: 10px;
     border: 0px hidden;
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 nav, main {
   float: left;
